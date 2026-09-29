@@ -60,3 +60,11 @@ In main.py, verify your MySQL credentials in connect_db():
 
 ### 4. Run the application
 `python main.py`
+
+## 🔑 Default Credentials (Seed Data)
+
+| Role  | Username | Default Password    |
+| ----- | -------- | ------------------- |
+| Admin | admin    | admin               |
+| User  | alice    | aliceinwonderland   |
+| User  | bob      | bobbybob            |
