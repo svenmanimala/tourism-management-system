@@ -44,3 +44,19 @@ The system uses a normalized relational schema (`tourism_db`) with enforced fore
 ### 1. Prerequisites
 * **Python 3.8+**
 * **MySQL Server** running locally
+
+### 2. Database Setup
+Log into your MySQL terminal and run the schema setup script:
+`mysql -u root -p < tourism_db.sql`
+
+### 3. Database Configuration
+In main.py, verify your MySQL credentials in connect_db():
+`cfg = {
+    "host": "localhost",
+    "user": "root",
+    "password": "your_mysql_password",
+    "database": "tourism_db",
+}`
+
+### 4. Run the application
+`python main.py`
